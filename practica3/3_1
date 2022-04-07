@@ -1,0 +1,16 @@
+$x=0
+$y=0
+while($x -le 0){
+    [int] $x =Read-Host ("Inserte un numero mayor a 0: ")
+    if($x -le 0){
+        Write-Output("Numero Invalido")
+    }
+}
+while($y -le 0){
+    [int] $y =Read-Host ("Inserte otro numero mayorn a 0: ")
+    if($y -le 0){
+        Write-Output("Numero Invalido")
+    }
+}
+$z=$y+$x
+Write-Output "$z"
