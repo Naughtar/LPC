@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+function sumando(){
+	nombre=$1
+	echo "Bienvenido $nombre"
+	echo -e "1.-Pase \n 2.-Adios"
+	read op
+	if (($op -eq 1));then
+	echo "Sea bienvenido"
+	fi
+	if (($op -eq 2))
+	then echo "Que tenga buen dia"
+	else
+	echo 'Adios'
+	fi
+	
+}
+echo "inserte su nombre"
+read n1
+saludo $n1
