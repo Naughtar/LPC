@@ -1,0 +1,49 @@
+import base64
+
+
+def lector(route):
+    # Funcion para buscar el archivo a usar
+    
+    while True:
+        try:
+            file = open(route, 'rb')
+            datos = file.read()
+            return datos
+            
+        except:
+            print("Ruta del archivo no encontrada")
+            route = input('Inserte ruta del archivo:\n')
+
+def writer(file, tipo):
+    filename = input('Inserte nombre del archivo:')
+    if tipo==1:
+        filename = filename+ '.png'
+    elif tipo==2:
+        filename = filename+ '.txt'
+    file_w = open(filename,'wb')
+    file_w.write(file)
+
+
+def codi(file, tipo):
+    enc = base64.b64encode(file)
+    writer(enc, tipo)
+
+
+def deco(file, tipo):
+    deco = base64.b64decode(file)
+    writer(deco, tipo)
+
+
+def main():
+    op = int(input('Seleccione las opciones: \n1.- Encriptar \n2.- Desencriptar\n'))
+    ruta = input('Inserte ruta del archivo:\n')
+    tipo = int(input('Tipo de archivo: \n1.-Imagen \n2.-Texto\n'))
+    if op==1 and (tipo==1 or tipo==2):
+        codi(lector(ruta), tipo)
+    if (op==2 and (tipo==1 or tipo==2)):
+        deco(lector(ruta), tipo)
+    else:
+        print('Saliendo...')
+
+if __name__ == '__main__':
+    main()
