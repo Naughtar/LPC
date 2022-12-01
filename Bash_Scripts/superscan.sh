@@ -1,6 +1,6 @@
 #!/bin/bash
-#
-# Ejemplo de Menu en BASH
+#Script superscan.sh
+#Fecha 28/9/22 Nombre: Erick Mejorado Garcia
 #
 date
     echo "---------------------------"
