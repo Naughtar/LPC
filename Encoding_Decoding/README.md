@@ -1,4 +1,4 @@
-## Seccion: Correos
+## Seccion: Encoding_Decoding
 **Scripts y descripcion**
 - [encode_text.py](encode_text.py): Toma una cadena de texto y la codifica en base64.
 - [encode_imgur.py](encode_imgur.py): Descarga y codifica una imagen de imgur en base64.
