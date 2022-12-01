@@ -1,7 +1,7 @@
 ## Proyecto Final LPC
 Scripts del laboratorio de Ciber Seguridad
 
-**Objetivo de la actividad:**
+**Objetivo de la actividad:** Se elabora esta actividad con el proposito de ver, crear y editar repositorios con los cuales se interactuara para poder ralizar trabajos de acceso publico, ademas de generar familiarizacion con las plataformas en linea para coding y Software Libre
 
 
 **Scripts:**
