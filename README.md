@@ -1,10 +1,16 @@
-## Proyecto Final LPC
+# Proyecto Final LPC
 Scripts del laboratorio de Ciber Seguridad
+
+## **Datos del Alumno:**
+
+**Nombre:** Erick Mejorado Garcia
+
+**Matricula:** 1803249
 
 **Objetivo de la actividad:** Se elabora esta actividad con el proposito de ver, crear y editar repositorios con los cuales se interactuara para poder ralizar trabajos de acceso publico, ademas de generar familiarizacion con las plataformas en linea para coding y Software Libre
 
 
-**Scripts:**
+## **Scripts:**
 - [Manejo de APIs](Manejo_Api/): Scripts con el proposito de darle uso a las APIs.
 
 - [Scripting en PowerShell](Pwsh_Scripts/): Scripts en powershell para la deteccion de puertos abiertos.
